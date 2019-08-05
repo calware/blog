@@ -1,6 +1,6 @@
 title: 'title'
 description: "site description for seo"
-baseurl: "/jekyll-theme-console"
+baseurl: "/blog"
 url: "https://b2a3e8.github.io"
 
 header_pages:

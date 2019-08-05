@@ -9,7 +9,7 @@ categories:
 
 Some code below...
 <div class="code">
-  <p>mov rax, 10 ; uhm ...</p>
+  <p>mov rax, 10 <span class="h-c">; uhm ...</span></p>
   <p>imul rcx, 1Ch</p>
   <p>nop</p>
   <p>nop</p>

@@ -1,7 +1,7 @@
-title: "cal's blog - "
-description: "thoughtful blog"
+title: ""
+description: "reverse engineering"
 baseurl: "/"
-url: "http://calwa.re"
+url: "https://calwa.re"
 
 header_pages:
   - index.md

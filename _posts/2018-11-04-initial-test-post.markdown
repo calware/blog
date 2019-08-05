@@ -15,5 +15,3 @@ Some code below...
   <p>nop</p>
   <p>inc rcx</p>
 </div>
-
-{{ relative_url }}

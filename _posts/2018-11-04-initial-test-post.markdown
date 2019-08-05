@@ -9,5 +9,9 @@ categories:
 
 Some code below...
 <div class="code">
-  mov eax, 10 ; uhm ...
+  <p>mov rax, 10 ; uhm ...</p>
+  <p>imul rcx, 1Ch</p>
+  <p>nop</p>
+  <p>nop</p>
+  <p>inc rcx</p>
 </div>

@@ -1,6 +1,6 @@
 title: "cal's blog - "
 description: "thoughtful blog"
-baseurl: "/blog"
+baseurl: "/"
 url: "http://calwa.re"
 
 header_pages:

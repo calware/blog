@@ -6,7 +6,6 @@ permalink: /
 
 # Welcome
 
-This is a small blog for me to organize my thoughts.
-
+This is a place for me to organize my thoughts.
 
 Maybe you'll get something out of it.

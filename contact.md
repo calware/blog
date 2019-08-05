@@ -4,4 +4,6 @@ layout: page
 permalink: /contact
 ---
 
-<email>
+Give me a little time to get back to you.
+
+email address com

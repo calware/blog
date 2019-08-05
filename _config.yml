@@ -1,4 +1,4 @@
-title: 'title'
+title: "cal's blog"
 description: "site description for seo"
 baseurl: "/blog"
 url: "https://b2a3e8.github.io"
@@ -9,9 +9,9 @@ header_pages:
   - about.md
   - contact.md
 
-style: dark
+style: light
 
-footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+footer: ''
 
 # Build settings
 markdown: kramdown

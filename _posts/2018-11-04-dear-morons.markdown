@@ -8,4 +8,6 @@ categories:
 # Here is a test post
 
 Some code below...
-
+<div class="code">
+  mov eax, 10 ; uhm ...
+</div>

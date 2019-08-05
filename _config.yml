@@ -1,7 +1,7 @@
 title: "cal's blog - "
 description: "thoughtful blog"
 baseurl: "/blog"
-url: "https://calware.github.io"
+url: "http://calwa.re"
 
 header_pages:
   - index.md

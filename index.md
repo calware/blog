@@ -1,9 +1,9 @@
 ---
-title: /
+title: index
 layout: home
 permalink: /
 ---
 
 # Welcome
 
-Bla bla bla bla. Bla bla bla bla bla bla bla bla.
+blog text yadda yadda

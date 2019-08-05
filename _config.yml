@@ -1,6 +1,6 @@
 title: "cal's blog - "
 description: "site description for seo"
-baseurl: "/blog"
+baseurl: "/"
 url: "https://calware.github.io"
 
 header_pages:

@@ -14,4 +14,4 @@ footer: ''
 
 # Build settings
 markdown: kramdown
-remote_theme: calware/blog/tree/master
+remote_theme: calware/blog

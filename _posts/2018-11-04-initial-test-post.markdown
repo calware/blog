@@ -9,11 +9,11 @@ categories:
 
 Some code below...
 <pre>
-  <code class="x86asm hljs">
-    <span>mov rax, 10</span>
-    <span>imul rcx, 1Ch</span>
-    nop
-    nop
-    inc rcx
-  </code>
+<code class="x86asm hljs">
+mov rax, 10
+imul rcx, 1Ch
+nop
+nop
+inc rcx
+</code>
 </pre>

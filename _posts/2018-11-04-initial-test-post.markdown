@@ -22,8 +22,6 @@ inc rcx
 
 <pre>
 <code class="cpp hljs">
-#include <stdio.h>
-
 int main(int argc, char* argv[])
 {
   int iVar = 110;

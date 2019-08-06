@@ -8,10 +8,12 @@ categories:
 # Here is a test post
 
 Some code below...
-<div class="code">
-  <p>mov rax, 10 <span class="h-c">; uhm ...</span></p>
-  <p>imul rcx, 1Ch</p>
-  <p>nop</p>
-  <p>nop</p>
-  <p>inc rcx</p>
-</div>
+<pre>
+  <code class="x86asm hljs">
+    <p>mov rax, 10</p>
+    <p>imul rcx, 1Ch</p>
+    <p>nop</p>
+    <p>nop</p>
+    <p>inc rcx</p>
+  </code>
+</pre>

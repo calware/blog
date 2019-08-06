@@ -10,8 +10,8 @@ categories:
 Some code below...
 <pre>
   <code class="x86asm hljs">
-    <p>mov rax, 10</p>
-    <p>imul rcx, 1Ch</p>
+    <span>mov rax, 10</span>
+    <span>imul rcx, 1Ch</span>
     <p>nop</p>
     <p>nop</p>
     <p>inc rcx</p>

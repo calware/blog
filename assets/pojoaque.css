@@ -23,21 +23,21 @@ Based on Solarized Style from http://ethanschoonover.com/solarized
 .hljs-selector-tag,
 .hljs-literal,
 .hljs-addition {
-  color: #6f469a;
+  color: #9137ff;
 }
 
 .hljs-number,
 .hljs-string,
 .hljs-doctag,
 .hljs-regexp {
-  color: #188a8b;
+  color: #2fc9ca;
 }
 
 .hljs-title,
 .hljs-section,
 .hljs-built_in,
 .hljs-name {
-  color: #792a8a;
+  color: #d40fff;
 }
 
 .hljs-variable,

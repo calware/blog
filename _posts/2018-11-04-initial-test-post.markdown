@@ -12,8 +12,8 @@ Some code below...
   <code class="x86asm hljs">
     <span>mov rax, 10</span>
     <span>imul rcx, 1Ch</span>
-    <p>nop</p>
-    <p>nop</p>
-    <p>inc rcx</p>
+    nop
+    nop
+    inc rcx
   </code>
 </pre>

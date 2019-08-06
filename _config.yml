@@ -3,6 +3,8 @@ description: "reverse engineering"
 baseurl: "/"
 url: "https://calwa.re"
 
+google_analytics: UA-145145815-1
+
 header_pages:
   - index.md
   - about.md

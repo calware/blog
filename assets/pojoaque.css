@@ -9,7 +9,6 @@ Based on Solarized Style from http://ethanschoonover.com/solarized
 .hljs {
   display: block;
   overflow-x: auto;
-  padding: 0.5em;
   color: #dccf8f;
   background: #000;
 }

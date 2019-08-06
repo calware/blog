@@ -20,4 +20,16 @@ inc rcx
 
 # On to the next topic
 
-:)
+<pre>
+<code class="cpp hljs">
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+  int iVar = 110;
+  printf("I love you %d percent! :)", iVar);
+  
+  return 0;
+}
+</code>
+</pre>

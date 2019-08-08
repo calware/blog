@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Initial Test Post"
-date:   2018-11-04 12:32:45 +0100
-categories:
+date:   2018-11-24 12:32:45 +0000
+categories: [re, obf]
+tags: [vmp, vmprotect, obfuscation, deobfuscation]
 ---
 
 # Here is a test post

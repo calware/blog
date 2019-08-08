@@ -6,6 +6,7 @@ tags: [vmp, vmprotect, obfuscation, deobfuscation]
 ---
 
 Table of Contents
+* toc
 {:toc}
 
 # Here is a test post

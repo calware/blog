@@ -2,7 +2,6 @@
 layout: post
 title:  "Initial Test Post"
 date:   2018-11-24 12:32:45 +0000
-categories: [re, obf]
 tags: [vmp, vmprotect, obfuscation, deobfuscation]
 ---
 

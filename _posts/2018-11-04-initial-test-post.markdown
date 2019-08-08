@@ -5,7 +5,7 @@ date:   2018-11-24 12:32:45 +0000
 tags: [vmp, vmprotect, obfuscation, deobfuscation]
 ---
 
-* TOC
+Table of Contents
 {:toc}
 
 # Here is a test post
@@ -14,6 +14,8 @@ tags: [vmp, vmprotect, obfuscation, deobfuscation]
   - point 3
   
 *why*
+
+## Assembly formatting
 
 Some code below...
 ```x86asm
@@ -38,6 +40,7 @@ int main(int argc, char* argv[])
 }
 ```
 
+## sub 2
 **uwu**
 
 >here is
@@ -47,6 +50,7 @@ int main(int argc, char* argv[])
   - yea
   - oyea
 
+# thanks!
 Thanks for reading! Here is a puppy for your troubles:
 ![cute puppy uwu](/assets/puppy.jpg)
 Made with love~

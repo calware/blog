@@ -10,7 +10,8 @@ Based on Solarized Style from http://ethanschoonover.com/solarized
   display: block;
   overflow-x: auto;
   color: #dccf8f;
-  background: #000;
+  background: #0b0b0b;
+  padding: 12px;
 }
 
 .hljs-comment,

@@ -44,3 +44,6 @@ int main(int argc, char* argv[])
   - yea
   - yea
   - oyea
+
+Thanks for reading! Here is a puppy for your troubles:
+![cute puppy uwu](/assets/puppy.jpg)

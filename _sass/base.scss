@@ -46,12 +46,6 @@ footer { margin-bottom: 20px; }
 ::-moz-selection { background: $selection-background;  color: $selection-text; }
 
 /**
- * Lists
- */
-:not(.menu) > ul { list-style: none;  padding-left: 0; }
-:not(.menu) > ul { list-style-type: none; }
-
-/**
  * Header/Navigation
  */
 .menu { border-top: $border;  border-bottom: $border;  margin-bottom: 25px; }

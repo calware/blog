@@ -13,7 +13,7 @@ categories:
 *why*
 
 Some code below...
-```asm
+```x86asm
 mov rax, 10
 imul rcx, 1Ch
 nop

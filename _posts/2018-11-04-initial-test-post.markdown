@@ -6,17 +6,20 @@ categories:
 ---
 
 # Here is a test post
+  - point 1
+  - point 2
+  - point 3
+  
+*why*
 
 Some code below...
-<pre>
-<code class="x86asm hljs">
+```asm
 mov rax, 10
 imul rcx, 1Ch
 nop
 nop
 inc rcx
-</code>
-</pre>
+```
 
 # On to the next topic
 

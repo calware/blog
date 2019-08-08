@@ -31,3 +31,13 @@ int main(int argc, char* argv[])
 }
 </code>
 </pre>
+
+```cpp
+int main(int argc, char* argv[])
+{
+  int iVar = 110;
+  printf("I love you %d percent! :)", iVar);
+  
+  return 0;
+}
+```

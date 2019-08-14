@@ -5,7 +5,7 @@ date:   2018-11-24 12:32:45 +0000
 tags: [vmp, vmprotect, obfuscation, deobfuscation]
 ---
 
-Table of Contents
+# Table of Contents
 * toc
 {:toc}
 

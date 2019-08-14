@@ -31,6 +31,8 @@ h6:before { content: "######";  margin-right: 9px; }*/
 
 hr { border: none; border-bottom: 1px solid #ffffff2b; padding-top: 10px; margin: 0px 20px; }
 
+code .hljs-keyword:nth-of-type(2n) { color: #a46eff; }
+
 blockquote { border-left: 3px solid white; padding-left: 15px; border-radius: 2px; font-style: italic; margin-left: 15px; }
 img { max-width: 100%; margin: 15px 0px; }
 

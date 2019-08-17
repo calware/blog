@@ -12,7 +12,7 @@ header_pages:
 
 style: dark
 
-footer: '[Check out my Github](https://github.com/calware)'
+footer: '<a href="https://github.com/calware" target="_blank">Check out my Github</a>'
 
 plugins:
   - jekyll-sitemap

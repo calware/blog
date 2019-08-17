@@ -16,6 +16,7 @@ footer: ''
 
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
 
 # Build settings
 markdown: kramdown

@@ -29,6 +29,8 @@ nop
 inc rcx
 ```
 
+Here, I have included a test footnote[^f0]
+
 # On to the next topic
 
 ```cpp
@@ -62,3 +64,5 @@ Thanks for reading! Here is a puppy for your troubles:
 ![cute puppy uwu](/assets/puppy.jpg)
 Made with love~
 <3
+
+[^f0]: https://google.com

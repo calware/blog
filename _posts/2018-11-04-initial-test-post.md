@@ -29,7 +29,7 @@ nop
 inc rcx
 ```
 
-Here, I have included a test footnote.[^f0] Here is some text to the right of that, too :)
+Here, I have included a test footnote.[^cite0] Here is some text to the right of that, too :)
 
 # On to the next topic
 
@@ -65,4 +65,4 @@ Thanks for reading! Here is a puppy for your troubles:
 Made with love~
 <3
 
-[^f0]: *Google* - (<https://google.com>)
+[^cite0]: *Google* - (<https://google.com>)

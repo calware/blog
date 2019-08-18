@@ -37,6 +37,8 @@ blockquote { border-left: 3px solid white; padding-left: 15px; border-radius: 2p
 img { max-width: 100%; margin: 15px 0px; }
 
 .footnote { margin-left: 2px; text-decoration: none; color: #ff00fb9e; font-size: 10.5px; }
+.footnote::before { content: "["; }
+.footnote::after { content: "]"; }
 
 /**
  * Layout

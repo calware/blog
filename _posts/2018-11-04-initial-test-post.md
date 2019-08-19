@@ -66,7 +66,7 @@ Thanks for reading! Here is a puppy for your troubles:
 
 this is centered now!
 
-<div class="img-cont center">
+<div class="img-cont">
   <img src="/assets/puppy.jpg" alt="cute puppy uwu">
   <p>Here is some image subtext!</p>
 </div>

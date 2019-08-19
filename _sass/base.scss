@@ -35,7 +35,10 @@ code .hljs-keyword:nth-of-type(2n) { color: #a46eff; }
 
 blockquote { border-left: 3px solid white; padding-left: 15px; border-radius: 2px; font-style: italic; margin-left: 15px; }
 img { max-width: 100%; }
-.img-cont { color: #ffffff87; margin: 15px 0px; }
+.img-cont { margin: 15px 0px; }
+.img-cont p { color: #ffffff87; font-style: italic; }
+.img-cont p::before { content: "("; }
+.img-cont p::after { content: ")"; }
 
 .footnote { margin-left: 2px; text-decoration: none; color: #0cf; font-size: 10.5px; }
 .footnote::before { content: "["; }

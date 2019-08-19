@@ -63,7 +63,10 @@ int main(int argc, char* argv[])
 
 # thanks!
 Thanks for reading! Here is a puppy for your troubles:
-![cute puppy uwu](/assets/puppy.jpg)
+<div class="img-cont">
+  ![cute puppy uwu](/assets/puppy.jpg)
+  Here is some image subtext!
+</div>
 Made with love~
 <3
 

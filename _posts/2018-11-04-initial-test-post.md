@@ -65,8 +65,8 @@ int main(int argc, char* argv[])
 Thanks for reading! Here is a puppy for your troubles:
 
 <div class="img-cont">
-![cute puppy uwu](/assets/puppy.jpg)
-Here is some image subtext!
+  <img src="/assets/puppy.jpg" alt="cute puppy uwu">
+  <p>Here is some image subtext!</p>
 </div>
 
 Made with love~

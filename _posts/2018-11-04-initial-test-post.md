@@ -5,8 +5,6 @@ date:   2018-11-24 12:32:45 +0000
 tags: [vmp, vmprotect, obfuscation, deobfuscation]
 ---
 
-new!
-
 # Post Title
 
 Table of Contents
@@ -65,10 +63,12 @@ int main(int argc, char* argv[])
 
 # thanks!
 Thanks for reading! Here is a puppy for your troubles:
+
 <div class="img-cont">
-  ![cute puppy uwu](/assets/puppy.jpg)
-  Here is some image subtext!
+![cute puppy uwu](/assets/puppy.jpg)
+Here is some image subtext!
 </div>
+
 Made with love~
 <3
 

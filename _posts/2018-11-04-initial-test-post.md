@@ -64,6 +64,8 @@ int main(int argc, char* argv[])
 # thanks!
 Thanks for reading! Here is a puppy for your troubles:
 
+this is centered now!
+
 <div class="img-cont center">
   <img src="/assets/puppy.jpg" alt="cute puppy uwu">
   <p>Here is some image subtext!</p>

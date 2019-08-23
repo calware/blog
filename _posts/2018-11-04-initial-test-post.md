@@ -74,8 +74,8 @@ this is centered now!<sup class="fn-m">!</sup>
 Made with love~
 <3
 
-| here | is | a | table |
-|:----:|:--:|:-:|:-----:|
+|   here   |   is   |   a   |   table   |
+|:--------:|:------:|:-----:|:---------:|
 |  a   |  b | c |   d   |
 |  e   |  f | g |   h   |
 |  i   |  j | k |   l   |

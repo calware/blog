@@ -64,9 +64,7 @@ int main(int argc, char* argv[])
 # thanks!
 Thanks for reading! Here is a puppy for your troubles:
 
-this is centered now![^cite-n]{: .missing}
-
-this is also missing! [^cite-n {: .missing}]
+this is centered now!<sup class="fn-m">!</sup>
 
 <div class="img-cont">
   <img src="/assets/puppy.jpg" alt="cute puppy uwu">
@@ -80,4 +78,3 @@ Made with love~
 
 # References
 [^cite0]: *Google* - (<https://google.com>)
-[^cite-n]:

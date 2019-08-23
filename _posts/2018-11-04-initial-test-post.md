@@ -65,6 +65,7 @@ int main(int argc, char* argv[])
 Thanks for reading! Here is a puppy for your troubles:
 
 this is centered now![^cite-n]
+{: .footnote-missing}
 
 <div class="img-cont">
   <img src="/assets/puppy.jpg" alt="cute puppy uwu">

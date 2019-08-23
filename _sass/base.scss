@@ -44,6 +44,10 @@ img { max-width: 100%; border-radius: 4px; }
 .footnote::before { content: "["; }
 .footnote::after { content: "]"; }
 
+sup.fn-m { margin-left: 2px; text-decoration: none; color: #ff4150; font-size: 10.5px; }
+sup.fn-m::before { content: "["; }
+sup.fn-m::after { content: "]"; }
+
 .muted { color: #ffffff87; }
 .center { text-align: center; }
 

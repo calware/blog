@@ -76,7 +76,7 @@ Made with love~
 
 |   here   |   is   |   a   |   table   |
 |:--------:|:------:|:-----:|:---------:|
-|  a   |  b | c |   d   |
+|  a   |  b <sup class="fn-m">!</sup> | c |   d   |
 |  e   |  f | g |   h   |
 |  i   |  j | k |   l   |
 

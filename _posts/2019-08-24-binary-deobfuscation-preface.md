@@ -388,7 +388,7 @@ int y = 111;
 As stated above, constant folding is a form of optimization performed by compilers. Directly, this is not a technique that commonly corresponds to code obfuscation<sup class="fn-m">!</sup>; but given the context, constant folding could very much be used as a means to obscure code function; as is the case with many compiler optimizations.
 
 <div class="img-cont">
-	<img src="/assets/img-sep.png">
+	<img src="/assets/img-sep-2.png">
 </div>
 
 ### Constant Unfolding

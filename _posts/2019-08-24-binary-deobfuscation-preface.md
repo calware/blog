@@ -525,3 +525,7 @@ Above I mentioned that the most notable research into binary deobfuscation is la
 [4]: https://en.wikipedia.org/wiki/Fancy_Bear
 [5]: https://en.wikipedia.org/wiki/Widevine
 [6]: http://tigress.cs.arizona.edu/index.html
+
+<script>
+$("table").wrap("<div style=\"overflow-x: scroll;\"></div>");
+</script>

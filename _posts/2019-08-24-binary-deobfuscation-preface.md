@@ -283,7 +283,7 @@ Now, imagine instead of multiplying a number by two, the function `bar` was resp
 It's ironic: the most effective means to simplifying function inlining is also used as an obfuscation technique.
 
 <div class="img-cont">
-	<img src="/assets/img-sep.png">
+	<img src="/assets/img-sep-2.png">
 </div>
 
 ### Function Outlining
@@ -335,7 +335,7 @@ cmp eax, 4h
 Since the dead code above occupies the registers `ebx` and `ecx`, these registers can now be considered *dead*. However, that isn't to say these registers will always remain dead. The occupation of non-dead, *living* code, would indeed restore the status of `ebx` and `ecx`.
 
 <div class="img-cont">
-	<img src="/assets/img-sep.png">
+	<img src="/assets/img-sep-2.png">
 </div>
 
 ### Junk Code

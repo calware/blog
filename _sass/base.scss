@@ -53,6 +53,7 @@ table { width: 100%; border-collapse: collapse; margin: 20px 0; border-radius: 1
 table thead { background-color: #8C8B8C; color: black; }
 table td { padding: 5px; }
 table tr:nth-child(even) { background-color: #262626; }
+table th { min-width: 100px; } 
 
 .muted { color: #ffffff87; }
 .center { text-align: center; }

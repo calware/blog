@@ -463,7 +463,7 @@ Now is a good time to state, I have not yet reversed all of the [above applicati
 
 ---
 
-### Commercial Protectors
+### Commercial Obfuscations
 
 | Application               | Instruction Substitution | Control Flow Modification | Indirect Branches | Opaque Predicates | Function Inlining | Function Outlining | Dead Code | Junk Code | Constant Unfolding | Virtualization | Self Modification | Jitting |
 | ------------------------- |:------------------------------------------------:|:-------------------------:|:-----------------:|:-----------------:|:-----------------:|:------------------:|:---------:|:---------:|:------------------:|:--------------:|:-----------------:|:-------:|

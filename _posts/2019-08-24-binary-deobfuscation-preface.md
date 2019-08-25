@@ -166,6 +166,10 @@ Further,
 	<p>The disassembly for our test function after being ran through one of OLLVM's control flow flattening obfuscation passes</p>
 </div>
 
+<div class="img-cont">
+	<img src="/assets/img-sep.png">
+</div>
+
 #### Indirect Branches
 
 An indirect branch, 
@@ -181,6 +185,10 @@ jmp eax
 Here is an example of an indirect branch, taken out of one of the above programs. This program is riddled with branches that look just like this; and at the time, IDA was not able to follow them.
 
 ![indirect branch ida](/assets/ida-indirect-jump.png)
+
+<div class="img-cont">
+	<img src="/assets/img-sep.png">
+</div>
 
 #### Opaque Predicates
 
@@ -235,6 +243,10 @@ If one wasn't paying attention, you might miss that IDA signaled to this transfo
 	<p>Simple fix for the above transformation</p>
 </div>
 
+<div class="img-cont">
+	<img src="/assets/img-sep.png">
+</div>
+
 ### Function Inlining
 
 > "In computing, inline expansion, or inlining, is a manual or compiler optimization that replaces a function call site with the body of the called function" [^cite4]
@@ -270,6 +282,10 @@ Now, imagine instead of multiplying a number by two, the function `bar` was resp
 
 It's ironic: the most effective means to simplifying function inlining is also used as an obfuscation technique.
 
+<div class="img-cont">
+	<img src="/assets/img-sep.png">
+</div>
+
 ### Function Outlining
 > "Outline pieces of a function into their own functions" [^cite6]
 
@@ -283,6 +299,10 @@ Synonymous with function splitting, the definition (and further implementation) 
 The above image is to imply that the new functions, `f1` and `f2`, may contain code that isn't present within the original function `f` (such as a prologue and epilogue). This transformation would then enable other functions, which may rely on the functionality of `f1` or `f2`, to omit their own code and rely on an outlined function instead. 
 
 Later down the road, we will investigate how exactly this feature is implemented by Tigress. In the meantime, we can make an interesting comparison to OLLVM. Unlike Tigress' implied function outlining implementation, OLLVM behaves in the exact opposite manner. OLLVM's disassembly would retain a direct, one-to-one relationship with it's parent, in the event of a splitting pass.
+
+<div class="img-cont">
+	<img src="/assets/img-sep.png">
+</div>
 
 ### Dead Code
 
@@ -314,6 +334,10 @@ cmp eax, 4h
 
 Since the dead code above occupies the registers `ebx` and `ecx`, these registers can now be considered *dead*. However, that isn't to say these registers will always remain dead. The occupation of non-dead, *living* code, would indeed restore the status of `ebx` and `ecx`.
 
+<div class="img-cont">
+	<img src="/assets/img-sep.png">
+</div>
+
 ### Junk Code
 
 Also known as unreachable code,
@@ -337,6 +361,10 @@ label_1: 		; (B)
 
 The instructions nested between the conditional jump (A) and our first label (B) are junk code; they'll never execute. However, this doesn't stop a control flow path from existing to their location.
 
+<div class="img-cont">
+	<img src="/assets/img-sep.png">
+</div>
+
 ### Constant Folding
 
 In order to understand the idea of constant unfolding (seen below), you must first understand the idea of constant folding.
@@ -359,6 +387,10 @@ int y = 111;
 
 As stated above, constant folding is a form of optimization performed by compilers. Directly, this is not a technique that commonly corresponds to code obfuscation<sup class="fn-m">!</sup>; but given the context, constant folding could very much be used as a means to obscure code function; as is the case with many compiler optimizations.
 
+<div class="img-cont">
+	<img src="/assets/img-sep.png">
+</div>
+
 ### Constant Unfolding
 
 While both constant folding and constant unfolding can be used as an obfuscation technique, constant unfolding is more commonly seen.<sup class="fn-m">!</sup>
@@ -375,6 +407,10 @@ int y = (((x - 0xAA) | 0x58) ^ (((((x / 4) * 0x138759) >> 0x10) & 0x11) + 0x6)) 
 So, for a minute now, imagine the above arithmetic is done in assembly, amid other operations, across a flattened function, all while being executed through a custom virtual machine.
 
 Oh, right...
+
+<div class="img-cont">
+	<img src="/assets/img-sep.png">
+</div>
 
 ### Virtualization
 
@@ -395,6 +431,10 @@ Above, I have included a screenshot from the commercial protector, [CodeVirtuali
 
 I understand the above explanation is lacking. The problem with going into detail on this obfuscation technique now is the potential for variability in it's implementation. So, let's put a pin in it. I will go into considerably more detail on this technique in the posts to come.
 
+<div class="img-cont">
+	<img src="/assets/img-sep.png">
+</div>
+
 ### Self Modification
 
 > "In computer science, self-modifying code is code that alters its own instructions while it is executing ..." [^cite9]
@@ -402,6 +442,10 @@ I understand the above explanation is lacking. The problem with going into detai
 There isn't any more I'd like to say about this technique now. Like the above, the implementation defines the strength of the obfuscation. 
 
 This is a technique I am excited to explore, though, as it will involve us creating some examples to work off of.
+
+<div class="img-cont">
+	<img src="/assets/img-sep.png">
+</div>
 
 ### Jitting
 
@@ -414,6 +458,8 @@ There is a lot to be said about the potential for this technique. It's one that 
 Interestingly, [Tigress][6] also includes the ability to implement a transformation called *JitDynamic*, which "... is similar to the Jit transformation, except the jitted code is continuously modified and updated at runtime" [^cite11]. This technique would then be better classified as self modifying code.
 
 Now is a good time to state, I have not yet reversed all of the [above applications](#meet-the-enemy). The table below is based largely on information I have read from others; and cited accordingly. Data lacking of citations is largely speculative, or backed by research I have conducted that will not be made public. The applications, the techniques, and their ordering are all subject to change. In time, this snippet will be replaced, and citations to my own research will be used in place of the existing ones below. For now, take everything in the table below with a grain of salt, and read up on those citations (if there are any).
+
+---
 
 ### Commercial Protectors
 
@@ -431,6 +477,10 @@ Now is a good time to state, I have not yet reversed all of the [above applicati
 | Obsidium                  |         ❌<sup class="fn-m">!</sup>             |            ❔              |          ❔       |         ❔        |         ❌<sup class="fn-m">!</sup>       |          ❔        |     ❔     |    ❔     |          ❔        |      ✅[^cite28]       |         ❌<sup class="fn-m">!</sup>       |  ❌<sup class="fn-m">!</sup>   |
 | ASProtect                 |         ❌<sup class="fn-m">!</sup>             |            ❔              |          ❔       |         ✅[^cite29]       |         ❌<sup class="fn-m">!</sup>       |          ❔        |     ❌<sup class="fn-m">!</sup>    |   ✅[^cite29]     |          ❔        |      ❌<sup class="fn-m">!</sup>      |         ❌<sup class="fn-m">!</sup>       |  ❌<sup class="fn-m">!</sup>   |
 
+<div class="img-cont">
+	<img src="/assets/img-sep.png">
+</div>
+
 ### Malware Obfuscations
 
 | Application               | Instruction Substitution | Control Flow Modification | Indirect Branches | Opaque Predicates | Function Inlining | Function Outlining | Dead Code | Junk Code | Constant Unfolding | Virtualization | Self Modification | Jitting |
@@ -443,6 +493,10 @@ Now is a good time to state, I have not yet reversed all of the [above applicati
 | FinSpy VM                 | ❌<sup class="fn-m">!</sup> | ❔ | ❌<sup class="fn-m">!</sup> | ✅[^cite39] | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> | ✅[^cite39] | ✅! | ✅[^cite39] | ✅[^cite38] [^cite39] | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> |
 | ZeusVM                    | ❌<sup class="fn-m">!</sup> | ❔ | ❔ | ❔ | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> | ❔ | ❔ | ❔ | ✅[^cite40] | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> |
 | Swizzor                   | ❌<sup class="fn-m">!</sup> | ❔ | ❔ | ❔ | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> | ✅[^cite41] | ❔ | ❔ | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> |
+
+<div class="img-cont">
+	<img src="/assets/img-sep.png">
+</div>
 
 ### 'Legitimate' Obfuscations
 
@@ -457,6 +511,8 @@ Now is a good time to state, I have not yet reversed all of the [above applicati
 
 Note: A lot of the above applications utilize various forms of control flow modifications that are not control flow flattening. As such, I have generalized that category in the table above.
 
+---
+
 # A Conclusion, For Now
 
 I have made some bold and ambitious statements in this post. Systems like [PatchGuard][2] are completely unknown to me. Malware like [Turla][3] and [Sednit][4] are state-sponsored threats with high-priority targets. Not to mention, the obfuscation employed by all of above is said to be challenging, and very difficult to work through. There is a lack of easy, straightforward solutions; and the research to engineer such tooling is generally contained within academic circles.
@@ -464,6 +520,10 @@ I have made some bold and ambitious statements in this post. Systems like [Patch
 There's no doubt the road ahead is a long and challenging one. It will require me to learn a great deal about how these techniques are implemented, and how we can better go about circumventing them. Additionally, I am learning quickly that there are a myriad of legal obstacles in the way of my research. I want to make it clear: I don't wish to be implicated in any legal manner for the sharing of this information, nor would I like to aid in the breaking of DRM schemes, or development of malware-focussed binary protection systems. So in the future, I expect the methods I use to share this information with you will fall firmly within the bounds of what is fair, legal, and educational.
 
 That being said, I make this promise to you now: my research **will** apply to modern binary obfuscation. I will not diverge from [the goals I stated initially](#goals).
+
+<div class="img-cont">
+	<img src="/assets/img-sep.png">
+</div>
 
 # Additional Reading
 
@@ -480,6 +540,8 @@ Above I mentioned that the most notable research into binary deobfuscation is la
 - *Aspire - Publications* (<https://aspire-fp7.eu/papers>)
 - *Creating Code Obfuscation Virtual Machines - RECon 2008* (<https://www.youtube.com/watch?v=d_OFrP-m2xU>)
 {: #list-spaced}
+
+---
 
 # References
 [^cite0]: *Control Flow Flattening (Wikipedia)* - <https://github.com/obfuscator-llvm/obfuscator/wiki/Control-Flow-Flattening>

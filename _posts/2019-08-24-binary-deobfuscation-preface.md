@@ -156,7 +156,9 @@ Further,
 
 #### Indirect Branches
 
-> An indirect branch, "... rather than specifying the address of the next instruction to execute, as in a direct branch, the argument specifies where the address is located" [^cite2]
+An indirect branch, 
+
+> "... rather than specifying the address of the next instruction to execute, as in a direct branch, the argument specifies where the address is located" [^cite2]
 
 An easy way to think of this is an instruction sequence like the following:
 ```x86asm

@@ -467,6 +467,7 @@ Above I mentioned that the most notable research into binary deobfuscation is la
 - *Deobfuscation: recovering an OLLVM-protected program* (<https://blog.quarkslab.com/deobfuscation-recovering-an-ollvm-protected-program.html>)
 - *Aspire - Publications* (<https://aspire-fp7.eu/papers>)
 - *Creating Code Obfuscation Virtual Machines - RECon 2008* (<https://www.youtube.com/watch?v=d_OFrP-m2xU>)
+{: #list-spaced}
 
 # References
 [^cite0]: *Control Flow Flattening (Wikipedia)* - <https://github.com/obfuscator-llvm/obfuscator/wiki/Control-Flow-Flattening>

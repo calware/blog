@@ -41,7 +41,7 @@ img { max-width: 100%; border-radius: 4px; }
 .img-cont p::before { content: "("; }
 .img-cont p::after { content: ")"; }
 
-.footnote { margin-left: 2px; text-decoration: none; color: #0cf; font-size: 10.5px; }
+.footnote { margin-left: -3px; text-decoration: none; color: #0cf; font-size: 10.5px; }
 .footnote::before { content: "["; }
 .footnote::after { content: "]"; }
 

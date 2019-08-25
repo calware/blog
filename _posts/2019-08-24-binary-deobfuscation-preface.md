@@ -136,6 +136,10 @@ While the two snippets may look different, they are functionally equivalent. Bel
 	<p>Obfuscated Function Disassembly</p>
 </div>
 
+<div class="img-cont">
+	<img src="/assets/img-sep.png">
+</div>
+
 #### Control Flow Flattening
 
 Also known as CFG flattening or CFF,

@@ -56,6 +56,7 @@ Speaking of lawsuits, below contains a list of software protectors that have cau
 * Themida - <https://www.oreans.com/themida.php>
 * VMProtect - <https://vmpsoft.com/>
 * GuardIT - <https://www.arxan.com/application-protection/desktop-server>
+{: #list-spaced}
 
 <p class="muted">(*) Non-commercial applications</p>
 
@@ -71,6 +72,7 @@ Now, this is a list of (primarily) commercial protectors. It goes without saying
 * APT10 ANEL - <https://en.wikipedia.org/wiki/Red_Apollo>
 * xTunnel - <https://en.wikipedia.org/wiki/Fancy_Bear>
 * Uroburos/Turla - <https://en.wikipedia.org/wiki/Turla_(malware)>
+{: #list-spaced}
 
 When people mention binary obfuscation, malware is a very easy conclusion to arrive at. There is another side to that coin, though, and our list wouldn't be complete without it. Below are the examples of 'legitimate' obfuscation I've collected. These are companies looking to obscure the inner workings of their code for reasons that range from monetary incentive, to consumer protection (or so they say).
 
@@ -82,6 +84,7 @@ When people mention binary obfuscation, malware is a very easy conclusion to arr
 * BattlEye - <https://www.battleye.com/>
 * EasyAntiCheat - <https://www.easy.ac/en-us/>
 * Windows PatchGuard/Kernel Patch Protection - <https://en.wikipedia.org/wiki/Kernel_Patch_Protection>
+{: #list-spaced}
 
 Quick note: some of the above applications have been protected via entries in our [commercial protectors](#commercial-protectors) list. In the event that the obfuscation implemented by these applications too closely resembles output from our commercial protectors, it will be stated, and subsequently omitted from future posts.
 

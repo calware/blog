@@ -25,7 +25,9 @@ For a long time, I have been meaning to throw together some information regardin
 It's my sincere hope that, by the end of my writing, both you and I may walk away with something remarkable: not just the tooling to break modern, existing binary obfuscations, but a more fundamental understanding behind the ideas that create them. The ability to manipulate obfuscated binary objects in a way not bound by time, or a specific implementation; that is what I'm hoping to forge.
 {: #goals}
 
----
+<div class="img-cont">
+	<img src="/assets/img-sep.png">
+</div>
 
 ## Some Ground-Rules
 

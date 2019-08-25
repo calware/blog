@@ -33,6 +33,8 @@ I'm not interested in using paid, existing tools. This is something I feel alien
 
 Also, the contents of this series will largely revolve around samples of x64 binaries built for Windows, but the tooling may not. In the spirit of being fair to readers, and advancing my own knowledge of Linux binaries, I'll do my best to write some posts in that area as well; and mix the two when warranted.
 
+---
+
 # The Roadmap
 
 As an initial exercise, I'd like to explore [Obfuscator-LLVM (OLLVM)][0]. This will allow us to build multiple, flexible examples of specific binary obfuscations, and understand what goes into both making and breaking them. This will also serve as a primer for [LLVM's][1] intermediate representation (IR), and how we can leverage it to better understand our programs.
@@ -40,6 +42,8 @@ As an initial exercise, I'd like to explore [Obfuscator-LLVM (OLLVM)][0]. This w
 Once we have the groundwork for the rest of our research put in place, we will begin analyzing larger, more developed commercial protectors. Therein, I hope to put the techniques obscuring program function into context with the aforementioned [OLLVM][0] work.
 
 Lastly, I hope to demonstrate the results of my research by using live, in-the-wild samples of binary obfuscation. This research would mean nothing to me, should it stay within the confines of meticulously arranged examples; and it certainly wouldn't mean anything to you. Let's just hope I find a way to evade lawsuits as we go.
+
+---
 
 ## Meet The Enemy
 
@@ -86,6 +90,8 @@ When people mention binary obfuscation, malware is a very easy conclusion to arr
 * Windows PatchGuard/Kernel Patch Protection - <https://en.wikipedia.org/wiki/Kernel_Patch_Protection>
 
 Quick note: some of the above applications have been protected via entries in our [commercial protectors](#commercial-protectors) list. In the event that the obfuscation implemented by these applications too closely resembles output from our commercial protectors, it will be stated, and subsequently omitted from future posts.
+
+---
 
 ## Techniques, Topics, and Prevalence
 

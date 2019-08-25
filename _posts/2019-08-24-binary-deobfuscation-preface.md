@@ -406,7 +406,6 @@ Now is a good time to state, I have not yet reversed all of the [above applicati
 ### Commercial Protectors
 
 <span style="overflow-x: scroll;">
-
 | Application               | Instruction Substitution | Control Flow Modification | Indirect Branches | Opaque Predicates | Function Inlining | Function Outlining | Dead Code | Junk Code | Constant Unfolding | Virtualization | Self Modification | Jitting |
 | ------------------------- |:------------------------------------------------:|:-------------------------:|:-----------------:|:-----------------:|:-----------------:|:------------------:|:---------:|:---------:|:------------------:|:--------------:|:-----------------:|:-------:|
 | Tigress                   |         ✅[^cite18]     |            ✅[^cite18]    |    ✅[^cite18]   |     ✅[^cite18]   |    ✅[^cite18]    |    ✅[^cite18]    |✅[^cite18]|✅[^cite18]|    ✅[^cite18]   |  ✅[^cite18]   |    ✅[^cite18]   |✅[^cite18]|
@@ -420,7 +419,6 @@ Now is a good time to state, I have not yet reversed all of the [above applicati
 | Enigma Protector          |         ✅[^cite27]              |            ❔              |          ❔       |         ❔        |         ❌<sup class="fn-m">!</sup>       |          ❔        |     ❔     |    ❔     |          ❔        |      ✅[^cite27]       |         ❌<sup class="fn-m">!</sup>       |  ❌<sup class="fn-m">!</sup>   |
 | Obsidium                  |         ❌<sup class="fn-m">!</sup>             |            ❔              |          ❔       |         ❔        |         ❌<sup class="fn-m">!</sup>       |          ❔        |     ❔     |    ❔     |          ❔        |      ✅[^cite28]       |         ❌<sup class="fn-m">!</sup>       |  ❌<sup class="fn-m">!</sup>   |
 | ASProtect                 |         ❌<sup class="fn-m">!</sup>             |            ❔              |          ❔       |         ✅[^cite29]       |         ❌<sup class="fn-m">!</sup>       |          ❔        |     ❌<sup class="fn-m">!</sup>    |   ✅[^cite29]     |          ❔        |      ❌<sup class="fn-m">!</sup>      |         ❌<sup class="fn-m">!</sup>       |  ❌<sup class="fn-m">!</sup>   |
-
 </span>
 
 ### Malware Obfuscations

@@ -442,7 +442,6 @@ Now is a good time to state, I have not yet reversed all of the [above applicati
 | Spotify                   | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ |
 | PatchGuard                | ❌<sup class="fn-m">!</sup> | ✅[^cite42] [^cite45]| ✅[^cite43] | ❔ | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> | ❔ | ❔ | ❔ | ❌<sup class="fn-m">!</sup> | ✅[^cite44] | ❌<sup class="fn-m">!</sup> |
 | Skype                     | ❌<sup class="fn-m">!</sup> | ✅[^cite46] | ✅[^cite46] | ✅[^cite46] | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> | ❔ | ❔ | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> |
-{: .table-left}
 
 Note: A lot of the above applications utilize various forms of control flow modifications that are not control flow flattening. As such, I have generalized that category in the table above.
 

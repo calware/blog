@@ -187,7 +187,7 @@ Here is an example of an indirect branch, taken out of one of the above programs
 ![indirect branch ida](/assets/ida-indirect-jump.png)
 
 <div class="img-cont">
-	<img src="/assets/img-sep.png">
+	<img src="/assets/img-sep-2.png">
 </div>
 
 #### Opaque Predicates

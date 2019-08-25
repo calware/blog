@@ -444,7 +444,7 @@ There isn't any more I'd like to say about this technique now. Like the above, t
 This is a technique I am excited to explore, though, as it will involve us creating some examples to work off of.
 
 <div class="img-cont">
-	<img src="/assets/img-sep.png">
+	<img src="/assets/img-sep-2.png">
 </div>
 
 ### Jitting
@@ -477,10 +477,6 @@ Now is a good time to state, I have not yet reversed all of the [above applicati
 | Obsidium                  |         ❌<sup class="fn-m">!</sup>             |            ❔              |          ❔       |         ❔        |         ❌<sup class="fn-m">!</sup>       |          ❔        |     ❔     |    ❔     |          ❔        |      ✅[^cite28]       |         ❌<sup class="fn-m">!</sup>       |  ❌<sup class="fn-m">!</sup>   |
 | ASProtect                 |         ❌<sup class="fn-m">!</sup>             |            ❔              |          ❔       |         ✅[^cite29]       |         ❌<sup class="fn-m">!</sup>       |          ❔        |     ❌<sup class="fn-m">!</sup>    |   ✅[^cite29]     |          ❔        |      ❌<sup class="fn-m">!</sup>      |         ❌<sup class="fn-m">!</sup>       |  ❌<sup class="fn-m">!</sup>   |
 
-<div class="img-cont">
-	<img src="/assets/img-sep.png">
-</div>
-
 ### Malware Obfuscations
 
 | Application               | Instruction Substitution | Control Flow Modification | Indirect Branches | Opaque Predicates | Function Inlining | Function Outlining | Dead Code | Junk Code | Constant Unfolding | Virtualization | Self Modification | Jitting |
@@ -493,10 +489,6 @@ Now is a good time to state, I have not yet reversed all of the [above applicati
 | FinSpy VM                 | ❌<sup class="fn-m">!</sup> | ❔ | ❌<sup class="fn-m">!</sup> | ✅[^cite39] | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> | ✅[^cite39] | ✅! | ✅[^cite39] | ✅[^cite38] [^cite39] | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> |
 | ZeusVM                    | ❌<sup class="fn-m">!</sup> | ❔ | ❔ | ❔ | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> | ❔ | ❔ | ❔ | ✅[^cite40] | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> |
 | Swizzor                   | ❌<sup class="fn-m">!</sup> | ❔ | ❔ | ❔ | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> | ✅[^cite41] | ❔ | ❔ | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> |
-
-<div class="img-cont">
-	<img src="/assets/img-sep.png">
-</div>
 
 ### 'Legitimate' Obfuscations
 

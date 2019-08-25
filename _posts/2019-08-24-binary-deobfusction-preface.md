@@ -63,25 +63,25 @@ Now, this is a list of (primarily) commercial protectors. It goes without saying
 
 ### The Real Enemy
 
-	* ZeusVM - <https://en.wikipedia.org/wiki/Zeus_(malware)>
-	* FinSpy VM - <https://en.wikipedia.org/wiki/FinFisher>
-	* Nymaim - <https://www.cyber.nj.gov/threat-profiles/trojan-variants/nymaim>
-	* Smoke Loader - <https://www.cyber.nj.gov/threat-profiles/trojan-variants/smoke-loader>
-	* Swizzor - <https://en.wikipedia.org/wiki/Swizzor>
-	* APT10 ANEL - <https://en.wikipedia.org/wiki/Red_Apollo>
-	* xTunnel - <https://en.wikipedia.org/wiki/Fancy_Bear>
-	* Uroburos/Turla - <https://en.wikipedia.org/wiki/Turla_(malware)>
+* ZeusVM - <https://en.wikipedia.org/wiki/Zeus_(malware)>
+* FinSpy VM - <https://en.wikipedia.org/wiki/FinFisher>
+* Nymaim - <https://www.cyber.nj.gov/threat-profiles/trojan-variants/nymaim>
+* Smoke Loader - <https://www.cyber.nj.gov/threat-profiles/trojan-variants/smoke-loader>
+* Swizzor - <https://en.wikipedia.org/wiki/Swizzor>
+* APT10 ANEL - <https://en.wikipedia.org/wiki/Red_Apollo>
+* xTunnel - <https://en.wikipedia.org/wiki/Fancy_Bear>
+* Uroburos/Turla - <https://en.wikipedia.org/wiki/Turla_(malware)>
 
 When people mention binary obfuscation, malware is a very easy conclusion to arrive at. There is another side to that coin, though, and our list wouldn't be complete without it. Below are the examples of 'legitimate' obfuscation I've collected. These are companies looking to obscure the inner workings of their code for reasons that range from monetary incentive, to consumer protection (or so they say).
 
 ### 'Legitimate' Obfuscation
 
-	* Skype - <https://www.skype.com/en/>
-	* Spotify (See also [Widevine][5]) - <https://www.spotify.com/us/>
-	* Adobe Photoshop - <https://www.adobe.com/products/photoshop.html>
-	* BattlEye - <https://www.battleye.com/>
-	* EasyAntiCheat - <https://www.easy.ac/en-us/>
-	* Windows PatchGuard/Kernel Patch Protection - <https://en.wikipedia.org/wiki/Kernel_Patch_Protection>
+* Skype - <https://www.skype.com/en/>
+* Spotify (See also [Widevine][5]) - <https://www.spotify.com/us/>
+* Adobe Photoshop - <https://www.adobe.com/products/photoshop.html>
+* BattlEye - <https://www.battleye.com/>
+* EasyAntiCheat - <https://www.easy.ac/en-us/>
+* Windows PatchGuard/Kernel Patch Protection - <https://en.wikipedia.org/wiki/Kernel_Patch_Protection>
 
 Quick note: some of the above applications have been protected via entries in our [commercial protectors](#commercial-protectors) list. In the event that the obfuscation implemented by these applications too closely resembles output from our commercial protectors, it will be stated, and subsequently omitted from future posts.
 
@@ -455,16 +455,16 @@ That being said, I make this promise to you now: my research **will** apply to m
 
 Above I mentioned that the most notable research into binary deobfuscation is largely contained within academic circles. Usually these resources are dry, and difficult to read through. So, in the spirit of not bogging you down with boring and speculative research, below I have done my best to list resources that I found to be both practical and engaging.
 
-	- *Diablo - Deobfuscation: By Hand* (<https://diablo.elis.ugent.be/node/54>)
-	- *The Tigress C Diversifier/Obfuscator: Transformations* (<http://tigress.cs.arizona.edu/transformPage/index.html>)
-	- *Intermediate Representation - Wikipedia* (<https://en.wikipedia.org/wiki/Intermediate_representation>)
-	- *Usenix - Disassembling Obfuscated Binaries* (<https://www.usenix.org/legacy/publications/library/proceedings/sec04/tech/full_papers/kruegel/kruegel_html/node3.html>)
-	- *Optimizing Compiler (Specific Techniques) - Wikipedia* (<https://en.wikipedia.org/wiki/Optimizing_compiler#Specific_techniques>)
-	- *Compiler Optimizations for Reverse Engineers - Rolf Rolles, Mobius Strip Reverse Engineering* (<https://www.msreverseengineering.com/blog/2014/6/23/compiler-optimizations-for-reverse-engineers>)
-	- *Udupa, Sharath K., Saumya K. Debray, and Matias Madou. "Deobfuscation: Reverse engineering obfuscated code." 12th Working Conference on Reverse Engineering (WCRE'05). IEEE, 2005.* (<https://ieeexplore.ieee.org/abstract/document/1566145>)
-	- *Deobfuscation: recovering an OLLVM-protected program* (<https://blog.quarkslab.com/deobfuscation-recovering-an-ollvm-protected-program.html>)
-	- *Aspire - Publications* (<https://aspire-fp7.eu/papers>)
-	- *Creating Code Obfuscation Virtual Machines - RECon 2008* (<https://www.youtube.com/watch?v=d_OFrP-m2xU>)
+- *Diablo - Deobfuscation: By Hand* (<https://diablo.elis.ugent.be/node/54>)
+- *The Tigress C Diversifier/Obfuscator: Transformations* (<http://tigress.cs.arizona.edu/transformPage/index.html>)
+- *Intermediate Representation - Wikipedia* (<https://en.wikipedia.org/wiki/Intermediate_representation>)
+- *Usenix - Disassembling Obfuscated Binaries* (<https://www.usenix.org/legacy/publications/library/proceedings/sec04/tech/full_papers/kruegel/kruegel_html/node3.html>)
+- *Optimizing Compiler (Specific Techniques) - Wikipedia* (<https://en.wikipedia.org/wiki/Optimizing_compiler#Specific_techniques>)
+- *Compiler Optimizations for Reverse Engineers - Rolf Rolles, Mobius Strip Reverse Engineering* (<https://www.msreverseengineering.com/blog/2014/6/23/compiler-optimizations-for-reverse-engineers>)
+- *Udupa, Sharath K., Saumya K. Debray, and Matias Madou. "Deobfuscation: Reverse engineering obfuscated code." 12th Working Conference on Reverse Engineering (WCRE'05). IEEE, 2005.* (<https://ieeexplore.ieee.org/abstract/document/1566145>)
+- *Deobfuscation: recovering an OLLVM-protected program* (<https://blog.quarkslab.com/deobfuscation-recovering-an-ollvm-protected-program.html>)
+- *Aspire - Publications* (<https://aspire-fp7.eu/papers>)
+- *Creating Code Obfuscation Virtual Machines - RECon 2008* (<https://www.youtube.com/watch?v=d_OFrP-m2xU>)
 
 # References
 [^cite0]: *Control Flow Flattening (Wikipedia)* - <https://github.com/obfuscator-llvm/obfuscator/wiki/Control-Flow-Flattening>

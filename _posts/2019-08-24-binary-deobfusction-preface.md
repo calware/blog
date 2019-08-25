@@ -45,17 +45,17 @@ Speaking of lawsuits, below contains a list of software protectors that have cau
 
 ### Commercial Protectors
 
-	* Obfuscator-LLVM (OLLVM) (*) - <https://github.com/obfuscator-llvm/obfuscator/wiki>
-	* The Tigress C Diversifier/Obfuscator (*) - <http://tigress.cs.arizona.edu/index.html>
-	* ReWolf's Virtualizer (*) - <https://github.com/rwfpl/rewolf-x86-virtualizer>
-	* ASProtect - <http://www.aspack.com/asprotect64.html>
-	* Obsidium - <https://www.obsidium.de/show/details/en>
-	* PELock - <https://www.pelock.com/products/pelock>
-	* Enigma Protector - <https://enigmaprotector.com/>
-	* CodeVirtualizer - <https://www.oreans.com/codevirtualizer.php>
-	* Themida - <https://www.oreans.com/themida.php>
-	* VMProtect - <https://vmpsoft.com/>
-	* GuardIT - <https://www.arxan.com/application-protection/desktop-server>
+	- Obfuscator-LLVM (OLLVM) (*) - <https://github.com/obfuscator-llvm/obfuscator/wiki>
+	- The Tigress C Diversifier/Obfuscator (*) - <http://tigress.cs.arizona.edu/index.html>
+	- ReWolf's Virtualizer (*) - <https://github.com/rwfpl/rewolf-x86-virtualizer>
+	- ASProtect - <http://www.aspack.com/asprotect64.html>
+	- Obsidium - <https://www.obsidium.de/show/details/en>
+	- PELock - <https://www.pelock.com/products/pelock>
+	- Enigma Protector - <https://enigmaprotector.com/>
+	- CodeVirtualizer - <https://www.oreans.com/codevirtualizer.php>
+	- Themida - <https://www.oreans.com/themida.php>
+	- VMProtect - <https://vmpsoft.com/>
+	- GuardIT - <https://www.arxan.com/application-protection/desktop-server>
 
 <p class="muted">(*) Non-commercial applications</p>
 

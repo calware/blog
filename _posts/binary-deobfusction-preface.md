@@ -1,6 +1,7 @@
 ---
 layout: post
 tile: "Binary Deobfuscation: Preface"
+date: 2019-08-24 16:00:01 +0000
 categories: [reversing, obfuscation]
 tags: [obfuscation, deobfuscation, reverse engineering]
 ---
@@ -352,7 +353,7 @@ Given the example of constant folding above, I have constructed a more intricate
 
 ```C
 int x = 220;
-int y = (((x - 0xAA) | 0x58) ^ (((((x / 4) * 0x138759) >> 0x10) & 0x11) + 0x6)) + 0x3
+int y = (((x - 0xAA) | 0x58) ^ (((((x / 4) * 0x138759) >> 0x10) & 0x11) + 0x6)) + 0x3;
 ```
 
 ![constant unfolding python simplification](/assets/constant-unfolding-python-simplification.png)

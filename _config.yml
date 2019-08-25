@@ -21,3 +21,5 @@ plugins:
 # Build settings
 markdown: kramdown
 remote_theme: calware/blog
+
+permalink: /:categories/:title

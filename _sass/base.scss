@@ -18,7 +18,7 @@ body { background-color: $background-color;  margin: 0 auto;  padding: 0;  font-
 h1, h2, h3, h4, h5, h6 { font-size: $base-font-size;  margin: 0px;  margin-top: 22px;  margin-bottom: 12px;  font-weight: bold;  color: $text-color; }
 p, ul, ol { color: $text-color; }
 p, ol { margin: 0px; }
-a { text-decoration: underline;  color: $link-color; }
+a { text-decoration: underline;  color: $link-color; word-break: break-word; }
 a:hover { color: $background-color; background-color: $base-color; }
 .primary-text { color: $primary-color; }
 @media only screen and (max-device-width: 500px) { * { font-size: $mobile-font-size !important; } }

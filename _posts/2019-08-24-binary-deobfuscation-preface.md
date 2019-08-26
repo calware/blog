@@ -125,17 +125,17 @@ While the two snippets may look different, they are functionally equivalent. Bel
 
 <div class="img-cont">
 	<img src="/assets/example_function_c_source.png" alt="example function c source code">
-	<p>Original C Source Code</p>
+	<div>Original C Source Code</div>
 </div>
 
 <div class="img-cont">
 	<img src="/assets/example_function_disasm.png" alt="example function disassembly">
-	<p>Clean Function Disassembly</p>
+	<div>Clean Function Disassembly</div>
 </div>
 
 <div class="img-cont">
 	<img src="/assets/example_function_mutated_disasm.png" alt="example function obfuscated disassembly">
-	<p>Obfuscated Function Disassembly</p>
+	<div>Obfuscated Function Disassembly</div>
 </div>
 
 <div class="img-cont">
@@ -155,17 +155,17 @@ Further,
 
 <div class="img-cont">
 	<img src="/assets/dummy_program_source.png" alt="Dummy test program c source code">
-	<p>The original source code</p>
+	<div>The original source code</div>
 </div>
 
 <div class="img-cont">
 	<img src="/assets/dummy_program_asm.png" alt="Dummy test program assembly code">
-	<p>The disassembly for our test function</p>
+	<div>The disassembly for our test function</div>
 </div>
 
 <div class="img-cont">
 	<img src="/assets/ollvm_control_flow_flattening_pass.png" alt="Test function after OLLVM obfuscation">
-	<p>The disassembly for our test function after being ran through one of OLLVM's control flow flattening obfuscation passes</p>
+	<div>The disassembly for our test function after being ran through one of OLLVM's control flow flattening obfuscation passes</div>
 </div>
 
 <div class="img-cont">
@@ -218,22 +218,22 @@ Opaque predicates also routinely cause problems within analysis platforms when c
 
 <div class="img-cont">
 	<img src="/assets/fasm_opaque_predicate.png" alt="opaque predicate assembly source code">
-	<p>'Opaque' predicate assembly code</p>
+	<div>'Opaque' predicate assembly code</div>
 </div>
 
 <div class="img-cont">
 	<img src="/assets/ida_disassembles_opaque_predicate.png" alt="IDA Pro disassembling opaque predicate">
-	<p>IDA Pro continues to disassemble the code</p>
+	<div>IDA Pro continues to disassemble the code</div>
 </div>
 
 <div class="img-cont">
 	<img src="/assets/fasm_opaque_predicate_confuse_analysis_2.png" alt="opaque predicate improved assembly source code">
-	<p>Improved 'opaque' predicate assembly code</p>
+	<div>Improved 'opaque' predicate assembly code</div>
 </div>
 
 <div class="img-cont">
 	<img src="/assets/ida_confused_analysis_2.png" alt="IDA Pro confused analysis">
-	<p>Confusing IDA's analysis hides proceeding instructions</p>
+	<div>Confusing IDA's analysis hides proceeding instructions</div>
 </div>
 
 As you can see in the above demonstration, even simple attempts at disrupting analysis tools can greatly modify the output. Here, IDA made the assumption that the one dummy data byte in our opaque predicate was an [opcode expansion prefix](http://www.c-jump.com/CIS77/CPU/x86/lecture.html#X77_0040_opcode_sizes) forcing the instruction to require at-least one more byte. This next byte, of course, chipped into the real instruction that would be executed.
@@ -242,7 +242,7 @@ If one wasn't paying attention, you might miss that IDA signaled to this transfo
 
 <div class="img-cont">
 	<img src="/assets/ida_confused_analysis_2_fix.png" alt="IDA Pro confused analysis fix">
-	<p>Simple fix for the above transformation</p>
+	<div>Simple fix for the above transformation</div>
 </div>
 
 <div class="img-cont">
@@ -295,7 +295,7 @@ Synonymous with function splitting, the definition (and further implementation) 
 
 <div class="img-cont">
 	<img src="/assets/function-splitting-tigress-asu.png" alt="function splitting asu tigress">
-	<p>ASU's Tigress C Obfuscator "Function Splitting" Diagram (<a href="http://tigress.cs.arizona.edu/transformPage/docs/split/index.html" target="_blank">source</a>)</p>
+	<div>ASU's Tigress C Obfuscator "Function Splitting" Diagram (<a href="http://tigress.cs.arizona.edu/transformPage/docs/split/index.html" target="_blank">source</a>)</div>
 </div>
 
 The above image is to imply that the new functions, `f1` and `f2`, may contain code that isn't present within the original function `f` (such as a prologue and epilogue). This transformation would then enable other functions, which may rely on the functionality of `f1` or `f2`, to omit their own code and rely on an outlined function instead. 
@@ -426,7 +426,7 @@ The original, non-virtualized code of the underlying binary has been transformed
 
 <div class="img-cont">
 	<img src="/assets/codevirtualizer_vm_transformation.jpg" alt="codevirtualizer vm transformation">
-	<p>Orean's CodeVirtualizer vm-based protection diagram (<a href="https://www.oreans.com/CodeVirtualizer.php" target="_blank">source</a>)</p>
+	<div>Orean's CodeVirtualizer vm-based protection diagram (<a href="https://www.oreans.com/CodeVirtualizer.php" target="_blank">source</a>)</div>
 </div>
 
 Above, I have included a screenshot from the commercial protector, [CodeVirtualizer](https://www.oreans.com/CodeVirtualizer.php). As you can see, the simplistic code on the left is transformed into an entirely different instruction set on the right.

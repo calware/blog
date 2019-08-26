@@ -124,17 +124,17 @@ inc eax
 While the two snippets may look different, they are functionally equivalent. Below I have included the various phases of an example function as it transforms under OLLVM's instruction substitution pass.
 
 <div class="img-cont">
-	<img src="/assets/example_function_c_source.png" alt="example function c source code">
+	<img src="/assets/example_function_c_source.png" alt="Example function C source code" title="Example function C source code">
 	<div>Original C Source Code</div>
 </div>
 
 <div class="img-cont">
-	<img src="/assets/example_function_disasm.png" alt="example function disassembly">
+	<img src="/assets/example_function_disasm.png" alt="Example function disassembly" title="Example function disassembly">
 	<div>Clean Function Disassembly</div>
 </div>
 
 <div class="img-cont">
-	<img src="/assets/example_function_mutated_disasm.png" alt="example function obfuscated disassembly">
+	<img src="/assets/example_function_mutated_disasm.png" alt="Example function obfuscated disassembly" title="Example function obfuscated disassembly">
 	<div>Obfuscated Function Disassembly</div>
 </div>
 
@@ -154,17 +154,17 @@ Further,
 > "In a control-flow graph each node in the graph represents a basic block, i.e. a straight-line piece of code without any jumps or jump targets; jump targets start a block, and jumps end a block. Directed edges are used to represent jumps in the control flow. There are, in most presentations, two specially designated blocks: the entry block, through which control enters into the flow graph, and the exit block, through which all control flow leaves." [^cite1]
 
 <div class="img-cont">
-	<img src="/assets/dummy_program_source.png" alt="Dummy test program c source code">
+	<img src="/assets/dummy_program_source.png" alt="Dummy test program C source code" title="Dummy test program C source code">
 	<div>The original source code</div>
 </div>
 
 <div class="img-cont">
-	<img src="/assets/dummy_program_asm.png" alt="Dummy test program assembly code">
+	<img src="/assets/dummy_program_asm.png" alt="Dummy test program assembly code" title="Dummy test program assembly code">
 	<div>The disassembly for our test function</div>
 </div>
 
 <div class="img-cont">
-	<img src="/assets/ollvm_control_flow_flattening_pass.png" alt="Test function after OLLVM obfuscation">
+	<img src="/assets/ollvm_control_flow_flattening_pass.png" alt="Test function after OLLVM control flow flattening obfuscation" title="Test function after OLLVM control flow flattening obfuscation">
 	<div>The disassembly for our test function after being ran through one of OLLVM's control flow flattening obfuscation passes</div>
 </div>
 
@@ -217,22 +217,22 @@ Now, as you may expect, this is not a realistic example of an in-the-wild opaque
 Opaque predicates also routinely cause problems within analysis platforms when certain assumptions are made. For instance, IDA Pro is one example of a tool that expects nice, proper code. [^cite17] Below I have included an example of what can happen when you violate the assumptions made during IDA's binary analysis.
 
 <div class="img-cont">
-	<img src="/assets/fasm_opaque_predicate.png" alt="opaque predicate assembly source code">
+	<img src="/assets/fasm_opaque_predicate.png" alt="Opaque predicate assembly source code" title="Opaque predicate assembly source code">
 	<div>'Opaque' predicate assembly code</div>
 </div>
 
 <div class="img-cont">
-	<img src="/assets/ida_disassembles_opaque_predicate.png" alt="IDA Pro disassembling opaque predicate">
+	<img src="/assets/ida_disassembles_opaque_predicate.png" alt="IDA Pro disassembling opaque predicate" title="IDA Pro disassembling opaque predicate">
 	<div>IDA Pro continues to disassemble the code</div>
 </div>
 
 <div class="img-cont">
-	<img src="/assets/fasm_opaque_predicate_confuse_analysis_2.png" alt="opaque predicate improved assembly source code">
+	<img src="/assets/fasm_opaque_predicate_confuse_analysis_2.png" alt="Creating an improved opaque predicate to confuse IDA Pro in FASM" alt="Creating an improved opaque predicate to confuse IDA Pro in FASM">
 	<div>Improved 'opaque' predicate assembly code</div>
 </div>
 
 <div class="img-cont">
-	<img src="/assets/ida_confused_analysis_2.png" alt="IDA Pro confused analysis">
+	<img src="/assets/ida_confused_analysis_2.png" alt="IDA Pro confused analysis when finding our previously created opaque predicate" title="IDA Pro confused analysis when finding our previously created opaque predicate">
 	<div>Confusing IDA's analysis hides proceeding instructions</div>
 </div>
 
@@ -241,7 +241,7 @@ As you can see in the above demonstration, even simple attempts at disrupting an
 If one wasn't paying attention, you might miss that IDA signaled to this transformation in the instruction `jz short near ptr loc_40100E+1` where the `+1` at the end would tell an attentive reverse engineer that the initial branch skips one byte at it's target location. Below, I have shown a very simple fix for this transformation.
 
 <div class="img-cont">
-	<img src="/assets/ida_confused_analysis_2_fix.png" alt="IDA Pro confused analysis fix">
+	<img src="/assets/ida_confused_analysis_2_fix.png" alt="IDA Pro FASM opaque predicate confused analysis fix" title="IDA Pro FASM opaque predicate confused analysis fix">
 	<div>Simple fix for the above transformation</div>
 </div>
 
@@ -425,7 +425,7 @@ The virtual machines used in code obfuscation aren't like [VMware](https://www.v
 The original, non-virtualized code of the underlying binary has been transformed into a custom bytecode. This custom bytecode is fed to an interpreter, whose job it is to mimic the actions of said underlying binary.
 
 <div class="img-cont">
-	<img src="/assets/codevirtualizer_vm_transformation.jpg" alt="codevirtualizer vm transformation">
+	<img src="/assets/codevirtualizer_vm_transformation.jpg" alt="CodeVirtualizer VM obfuscation transformation comparison assembly source diagram" title="CodeVirtualizer VM obfuscation transformation comparison assembly source diagram">
 	<div>Orean's CodeVirtualizer vm-based protection diagram (<a href="https://www.oreans.com/CodeVirtualizer.php" target="_blank">source</a>)</div>
 </div>
 

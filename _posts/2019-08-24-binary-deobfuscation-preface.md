@@ -1,7 +1,7 @@
 ---
 layout: post
 tile: "Binary Deobfuscation: Preface"
-date: 2019-08-24 16:00:13 +0000
+date: 2019-08-24 16:00:14 +0000
 categories: [reversing, obfuscation]
 tags: [obfuscation, deobfuscation, reverse engineering]
 ---

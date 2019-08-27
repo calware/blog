@@ -482,7 +482,7 @@ Now is a good time to state, I have not yet reversed all of the [above applicati
 ### Malware Obfuscations
 
 | Application               | Instruction Substitution | Control Flow Modification | Indirect Branches | Opaque Predicates | Function Inlining | Function Outlining | Dead Code | Junk Code | Constant Unfolding | Virtualization | Self Modification | Jitting |
-| ------------------------- |:------------------------:|:-------------------------:|:-----------------:|:-----------------:|:-----------------:|:------------------:|:---------:|:---------:|:------------------:|:--------------:|:-----------------:|:-------:|
+|:-------------------------:|:------------------------:|:-------------------------:|:-----------------:|:-----------------:|:-----------------:|:------------------:|:---------:|:---------:|:------------------:|:--------------:|:-----------------:|:-------:|
 | ANEL                      | ❌<sup class="fn-m">!</sup> | ✅[^cite30] | ✅[^cite30] | ✅[^cite30] | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> | ✅[^cite30] | ✅[^cite30] | ✅[^cite30] | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> |
 | Smoke Loader              | ❌<sup class="fn-m">!</sup> | ✅[^cite31] | ❔ | ✅[^cite31] | ❌<sup class="fn-m">!</sup> | ✅[^cite31] | ❌<sup class="fn-m">!</sup> | ❔ | ❔ | ❌<sup class="fn-m">!</sup> | ✅[^cite31] | ❌<sup class="fn-m">!</sup> |
 | Nymaim                    | ❌<sup class="fn-m">!</sup> | ✅[^cite32] | ✅[^cite32] | ✅[^cite33] | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> | ❔ | ❔ | ✅[^cite33] | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> |
@@ -495,7 +495,7 @@ Now is a good time to state, I have not yet reversed all of the [above applicati
 ### 'Legitimate' Obfuscations
 
 | Application               | Instruction Substitution | Control Flow Modification | Indirect Branches | Opaque Predicates | Function Inlining | Function Outlining | Dead Code | Junk Code | Constant Unfolding | Virtualization | Self Modification | Jitting |
-| ------------------------- |:------------------------:|:-------------------------:|:-----------------:|:-----------------:|:-----------------:|:------------------:|:---------:|:---------:|:------------------:|:--------------:|:-----------------:|:-------:|
+|:-------------------------:|:------------------------:|:-------------------------:|:-----------------:|:-----------------:|:-----------------:|:------------------:|:---------:|:---------:|:------------------:|:--------------:|:-----------------:|:-------:|
 | BattlEye                  | ✅<sup class="fn-m">!</sup> | ✅<sup class="fn-m">!</sup> | ✅<sup class="fn-m">!</sup> | ✅<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> | ✅<sup class="fn-m">!</sup> | ✅<sup class="fn-m">!</sup> | ✅<sup class="fn-m">!</sup> | ✅<sup class="fn-m">!</sup> | ✅<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> | ❌<sup class="fn-m">!</sup> |
 | EasyAntiCheat             | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ |
 | Photoshop                 | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ | ❔ |

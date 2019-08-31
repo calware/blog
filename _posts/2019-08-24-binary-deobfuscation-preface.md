@@ -280,7 +280,7 @@ int foo (int a, int b)
 
 Which could, of course, further reduce by removing the dependency on variable `c`, but you get the point.
 
-Now, imagine instead of multiplying a number by two, the function `bar` was response for logging runtime information to a file. In this hypothetical logging function, suppose we also decide to implement some menial logic regarding the type of information we're logging. If the function `foo` now were to call this logging function, even just a couple times, you can already begin to imagine how much our function would expand on the source level; not to mention the disassembly.
+Now, imagine instead of multiplying a number by two, the function `bar` was responsible for logging runtime information to a file. In this hypothetical logging function, suppose we also decide to implement some menial logic regarding the type of information we're logging. If the function `foo` now were to call this logging function, even just a couple times, you can already begin to imagine how much our function would expand on the source level; not to mention the disassembly.
 
 It's ironic: the most effective means to simplifying function inlining is also used as an obfuscation technique.
 

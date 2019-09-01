@@ -18,7 +18,7 @@ Table of Contents
 
 Hello.
 
-My name is Cal, and as you read initially, this is place for me to organize my thoughts. 
+My name is Cal, and as you read initially, this is a place for me to organize my thoughts. 
 
 For a long time, I have been meaning to throw together some information regarding binary obfuscation. This post is going to be a preface to my journey exploring a variety of different protectors, the protections they provide (in terms of obfuscation), and how anybody with a little time and patience can overcome them.
 

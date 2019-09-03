@@ -4,4 +4,4 @@ layout: page
 permalink: /downloads/challenges
 ---
 
-# Challenges
+# <a href="/downloads">Downloads</a> / Challenges

@@ -4,7 +4,9 @@ layout: page
 permalink: /contact
 ---
 
-If you want to talk about something I've posted, or just chit-chat about something that interest's you, I'm always available at the below address. 
+# Contact
+
+If you want to talk about something I've posted, or just chit-chat about something that interests you, I'm always available at the below address. 
 <br>
 Just give me a little time to get back to you.
 <br>

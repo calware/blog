@@ -4,4 +4,4 @@ layout: page
 permalink: /downloads/examples
 ---
 
-# Examples
+# <a href="/downloads">Downloads</a> / Examples

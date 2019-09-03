@@ -7,7 +7,7 @@ google_analytics: UA-145145815-1
 
 header_pages:
   - index.md
-  - files.md
+  - downloads.md
   - about.md
   - contact.md
 

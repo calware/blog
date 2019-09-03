@@ -4,4 +4,4 @@ layout: page
 permalink: /downloads/tools
 ---
 
-# Tools
+# <a href="/downloads">Downloads</a> / Tools
